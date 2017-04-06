@@ -1,0 +1,18 @@
+{
+	"manifest_version": 2,
+
+	"name": "Price Tracer X",
+	"description": "Add any product on any site and keep track of the price changes.",
+	"version": "1.0",
+	"background": {
+		"scripts": ["background.js"]
+	},
+
+	"permissions": ["tabs", "storage", "unlimitedStorage", "http://*/",
+        "https://*/"],
+	"browser_action": {
+		"default_icon": "icon.png",
+		"default_title": "Start",
+		"default_popup": "popup.html"
+	}
+}
